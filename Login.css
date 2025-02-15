@@ -1,0 +1,59 @@
+.loginPage {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    }
+    
+    .leftSection {
+    background-image: url('Logo.webp');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+    }
+    
+    .rightSection {
+    background-color:#209288;
+    display: grid;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    }
+    
+    .rightSection header h1 {
+        color: #FFFFFF;
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+        }
+        .rightSection header h2{
+            color: #FFFFFF;
+
+
+
+        }
+        .rightSection input {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        }
+        
+        .rightSection input:focus {
+        border-color: #aaa;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .rightSection input::placeholder {
+        color: #666;
+        }
+
+        
+        .rightSection input[type="submit"] {
+        margin-left: 50px;
+        width: 100px;
+        }
+    
+      
