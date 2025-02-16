@@ -54,6 +54,9 @@
         .rightSection input[type="submit"] {
         margin-left: 50px;
         width: 100px;
+        background-color: #4CAF50;
+        color: #fff;
+        cursor: pointer;
         }
     
       
