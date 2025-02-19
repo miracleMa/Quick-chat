@@ -1,0 +1,29 @@
+[33mcommit 1f10a702c98167b934f09fd5d554379debd907d0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mGroup-chat[m[33m)[m
+Author: Miracle Malitsha <miracle.malitsha@boxfusion.io>
+Date:   Wed Feb 19 09:28:55 2025 +0200
+
+     group chat functionality
+
+[33mcommit 3ede5708f912804f9f80bbea9f0011f2b14e6b6a[m[33m ([m[1;31morigin/registering-function[m[33m, [m[1;32mregistering-function[m[33m)[m
+Author: Miracle Malitsha <miracle.malitsha@boxfusion.io>
+Date:   Mon Feb 17 21:16:44 2025 +0200
+
+    registering and login functionality
+
+[33mcommit 8b4b07a26a53af2f62b2c56db9d517ade4c866c5[m[33m ([m[1;31morigin/registration[m[33m, [m[1;32mregistration_page[m[33m, [m[1;32mregistration[m[33m)[m
+Author: Miracle Malitsha <miracle.malitsha@boxfusion.io>
+Date:   Sun Feb 16 11:38:42 2025 +0200
+
+    registration
+
+[33mcommit dbe50df39a1444c3ece499384c2f0d87737670f8[m[33m ([m[1;31morigin/registration_page[m[33m)[m
+Author: Miracle Malitsha <miracle.malitsha@boxfusion.io>
+Date:   Sun Feb 16 10:47:42 2025 +0200
+
+    registation page
+
+[33mcommit b106b6656dcc1efc5fc9efd3ea451bea8fe29cdb[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Miracle Malitsha <miracle.malitsha@boxfusion.io>
+Date:   Sat Feb 15 18:46:06 2025 +0200
+
+    login page

@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+#chat{
+  background-color: #209288;
+}
+
+#Chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+
+
+.icon {
+  width: 30px;
+  height: 30px;
+
+}
+
+#group {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+#message-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  max-width: 600px;
+  height: 500px;
+  overflow-y: auto;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.message-header {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.message-header span {
+  margin-right: 10px;
+}
+.message-sender {
+  background-color: #209288;
+  padding: 10px;
+  border-radius: 10px;
+  align-self: flex-end;
+}
+
+.message-sender .message-header {
+  text-align: right;
+}
+
+.message-receiver {
+  background-color: #f7f7f7;
+  padding: 10px;
+  border-radius: 10px;
+  align-self: flex-start;
+}
+
+.message-receiver .message-header {
+  text-align: left;
+}
+
+.message-text {
+  font-size: 16px;
+  color: #171616;
+}
+
+#send-message-form {
+  display: flex;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#message-input {
+  flex-basis: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+#send-message-form button {
+  flex-basis: 20%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #209288;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#send-message-form button:hover {
+  background-color: #209288;
+}
